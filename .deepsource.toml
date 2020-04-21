@@ -1,0 +1,9 @@
+version = 1
+
+[[analyzers]]
+name = "go"
+enabled = true
+
+  [analyzers.meta]
+  import_path = "github.com/sidntrivedi012/hugo-coder"
+  dependencies_vendored = true
